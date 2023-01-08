@@ -1,0 +1,35 @@
+
+.circle::after{
+   position: absolute;
+   content: '';
+   height: 40px;
+   width: 40px;
+   shape-outside: ellipse(20% 50%);
+      clip-path: ellipse(50% 40%);
+   background: #D6DCEB;
+   top: 150px;
+   left: -75px;
+   
+}
+
+.circle{
+   box-shadow: 0 5px 6px -5px black;
+
+}
+
+.logo{
+   position: relative;
+}
+
+.logo::after{
+   position: absolute;
+   content: '';
+   height: 10px;
+   width: 10px;
+   shape-outside: ellipse(20% 50%);
+      clip-path: ellipse(50% 40%);
+   background: black;
+   top: 8px;
+   left: -10px;
+   
+}
